@@ -1,8 +1,8 @@
-# <p align=center>Data Matching Assistant</p>
+# <p align=center>🔍 Data Matching Assistant 🔍</p>
 
 **Data Matching Assistant** is a Python application designed for data reconciliation between two Excel files. It caters to data professionals and anyone faced with the task of comparing and harmonizing large datasets. By leveraging algorithms based on string similarity, this application facilitates the detection and pairing of similar records, ensuring data accuracy and quality.
 
-## Table of Contents
+## 📚 Table of Contents
 
 - [Project Architecture](#project-architecture)
 - [Prerequisites](#prerequisites)
@@ -12,7 +12,7 @@
 - [Support and Contribution](#support-and-contribution)
 - [Main Contributor](#main-contributor)
 
-## Project Architecture
+## 🏗️ Project Architecture
 
 The **Data Matching Assistant** application is modularly and intuitively structured:
 
@@ -21,13 +21,13 @@ The **Data Matching Assistant** application is modularly and intuitively structu
   - **Data Management with Pandas**: `pandas` is used to import, process, and handle data from Excel files. This library provides great flexibility and ensures optimal tabular data manipulation.
   - **Matching Algorithms with Fuzzywuzzy**: The `fuzzywuzzy` library is used to perform matches based on string similarity. It's crucial for identifying records that might not be identical but are similar enough to be considered matches.
 
-## Prerequisites
+## 🛠️ Prerequisites
 
 - Python 3.x
 - pip3
 - git
 
-## Installation
+## 📥 Installation
 
 1. **Clone the repository**: 
 
@@ -56,7 +56,7 @@ pip3 install -r requirements.txt
 python3 data_assistant.py
 ```
 
-## Usage
+## 🖥️ Usage
 
 <img width="100%" alt="Capture d’écran 2023-09-16 à 01 51 15" src="https://github.com/MathieuMorel62/Personal_projects/assets/113856302/939b07e5-a729-475d-8ba5-23184d75a3d7">
 
@@ -75,10 +75,10 @@ After selecting sheets and columns, click the matching button. The application w
 5. **View results**: 
 Once matching is completed, the results will be displayed in the interface. You can review the found matches and optionally export the results for further analysis.
 
-## Support and Contribution
+## 🤝 Support and Contribution
 
 If you have suggestions or bugs to report, please open a ticket. Contributions are also welcome; feel free to propose pull requests.
 
-## Main Contributor
+## 🚀 Main Contributor
 
 - Mathieu Morel - [LinkedIn Profile](https://www.linkedin.com/in/mathieu-morel-9ab457261/)
