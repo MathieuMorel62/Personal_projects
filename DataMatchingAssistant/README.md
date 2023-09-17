@@ -1,6 +1,23 @@
 # <p align=center>🔍 Data Matching Assistant 🔍</p>
 
-**Data Matching Assistant** is a Python application designed for data reconciliation between two Excel files. It caters to data professionals and anyone faced with the task of comparing and harmonizing large datasets. By leveraging algorithms based on string similarity, this application facilitates the detection and pairing of similar records, ensuring data accuracy and quality.
+**Data Matching Assistant** is a Python application designed for reconciling data between two sheets of an Excel file. It caters to data professionals and anyone faced with the task of comparing and harmonizing large datasets. Using string similarity-based algorithms, this application facilitates the detection and matching of similar records, ensuring data accuracy and quality.
+
+## 📖 Description and Features
+
+Data Matching Assistant is designed to ease data reconciliation between two sheets of an Excel file. Here's what you can do with this program:
+
+- **File Selection**: Easily import an Excel file for processing. Ensure the file is closed to avoid any conflicts.
+- **Sheet and Column Selection**: Choose two specific sheets to compare and select corresponding columns for matching.
+- **Matching Configuration**: Set a matching threshold to determine how similar two records should be to be considered a match.
+- **Results Visualization**: Once matching is done, results are displayed in the interface, showing matching records and the match percentage.
+- **Results Export**: You can opt to save the results to a new Excel file for further analysis.
+
+## File Requirements
+
+- **Format**: The file should be in .xlsx format.
+- **Structure**: The file should contain at least two sheets with tabular data. Columns you wish to compare should have headers.
+- **Size**: While the application can handle large files, for optimal performance, it's recommended not to exceed 10,000 rows per sheet.
+- **Content**: Columns selected for matching should contain text. Numeric values, dates, or other data types are not recommended for string similarity-based matching.
 
 ## 📚 Table of Contents
 
@@ -8,7 +25,6 @@
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
-- [License](#license)
 - [Support and Contribution](#support-and-contribution)
 - [Main Contributor](#main-contributor)
 
